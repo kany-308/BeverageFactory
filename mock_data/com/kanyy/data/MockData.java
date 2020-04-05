@@ -1,3 +1,4 @@
+package com.kanyy.data;
 import java.util.HashMap;
 import java.util.Map;
 import com.kanyy.beverage.Beverage;
