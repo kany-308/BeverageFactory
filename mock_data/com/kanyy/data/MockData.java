@@ -1,4 +1,5 @@
 package com.kanyy.data;
+
 import java.util.HashMap;
 import java.util.Map;
 import com.kanyy.beverage.Beverage;
@@ -25,5 +26,13 @@ public class MockData {
     ingredientMap.put("soda", 0.5);
     ingredientMap.put("mint", 0.5);
     ingredientMap.put("water", 0.5);
+  }
+
+  public static Map<String, Beverage> getBeverageMap() {
+    return beverageMap;
+  }
+
+  public static Map<String, Double> getIngredientMap() {
+    return ingredientMap;
   }
 }
